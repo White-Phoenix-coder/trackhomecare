@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="preload" href="images/favicon.webp" type="image/x-icon">
+   <title> Track Home Care | Providing Care You Can Trust</title>
+   <!-- Google fonts -->
+   <!-- Preconnect for faster connections -->
+   <link rel="preload" href="https://fonts.googleapis.com/" />
+   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+
+   <!-- Preload fonts and critical CSS -->
+   <link rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      as="style" />
+   <link rel="preload" href="vendors/bootstrap/css/bootstrap.min.css" as="style" />
+   <link rel="preload" href="vendors/fontawesome/css/all.min.css" as="style" />
+   <link rel="preload" href="vendors/icons/style.css" as="style" />
+   <link rel="preload" href="css/main.css" as="style" />
+
+   <!-- Link to external fonts with font-display: swap -->
+   <link rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet" />
+
+   <!-- Non-critical CSS: Deferred loading -->
+   <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css" onload="this.rel='stylesheet'" />
+   <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css" onload="this.rel='stylesheet'" />
+   <link rel="stylesheet" href="vendors/icons/style.css" onload="this.rel='stylesheet'" />
+   <link rel="stylesheet" href="vendors/owl-carousel/css/owl.carousel.min.css" onload="this.rel='stylesheet'" />
+   <link rel="stylesheet" href="vendors/swiper/css/swiper.min.css" onload="this.rel='stylesheet'" />
+   <link rel="stylesheet" href="vendors/spacing/spacing.css" onload="this.rel='stylesheet'" />
+   <link rel="stylesheet" href="vendors/glightbox/css/glightbox.min.css" onload="this.rel='stylesheet'" />
+   <link rel="stylesheet" href="css/main.css" onload="this.rel='stylesheet'" />
+</head>
+<style>
+   label.error{
+       color: red;
+       
+   }
+</style>
+
+
+<body class="xc-custom-cursor">
+   <div class="xc-page-wrapper">
+      <!-- <div class="xc-scrollbar_progress"></div> -->
+      <header>
+         <div class="xc-header-one-top d-none d-lg-block">
+            <div class="container ">
+               <div class="xc-header-one-top__content">
+                  <div class="xc-header-one-top__left">
+                     <span>
+                        <i class="icon-phone-call"></i>
+                        <a href="tel:+91-8799785858">Talk with us : +91-8799785858</a>
+                     </span>
+                  </div>
+                  <div class="xc-header-one-top__right">
+                     <span>
+                        <i class="icon-email"></i>
+                        <a href="mailto:support@trackhomecare.online"> support@trackhomecare.online</a>
+                     </span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- main header start  -->
+         <div id="xc-sticky-header" class="xc-header-one">
+            <div class="container #0">
+               <div class="xc-header-one__wrapper">
+                  <div class="xc-header-one__left">
+                     <div class="xc-header-one__logo">
+                        <a href="index.html"><img src="images/logo.webp" alt="logo" class="res_mob"></a>
+                     </div>
+                  </div>
+                  <div class="xc-header-one__right">
+                     <div class="xc-header-one__right-menu d-flex flex-wrap justify-content-between align-items-center">
+                        <div class="xc-main-menu d-none d-xl-block">
+                           <nav id="mobile-menu">
+                              <ul class="ul-0">
+                                 <li><a href="index.html">Home</a></li>
+                                 <li><a href="about.html">About</a></li>
+                                 <li class="has-dropdown">
+                                    <a href="#">Services</a>
+                                    <ul class="submenu">
+                                       <li><a href="elder-care-companions.html">Elder Care Companions</a> </li>
+                                       <li><a href="nursing-care.html">Nursing Care</a></li>
+                                       <li><a href="doctor-consultations.html">Doctor Consultations</a> </li>
+                                       <li><a href="icu-setup-at-home.html">ICU Setup at Home</a></li>
+                                       <li><a href="purchase-medical-equipment.html">Purchase Medical Equipment</a>
+                                       </li>
+                                       <li><a href="ambulance-services.html">Ambulance Services</a></li>
+                                       <li><a href="lab-test-at-home.html">Lab Test at Home</a></li>
+                                    </ul>
+                                 </li>
+                                 <li><a href="our-team.html">Our Team</a></li>
+                                 <li><a href="gallery.html">Gallery</a></li>
+                                 <li><a href="contact.html">Contact</a></li>
+                              </ul>
+                           </nav>
+                        </div>
+                        <div class="xc-header-one__right-btn d-none d-lg-flex align-items-center">
+                        </div>
+                        <!-- mobile drawer  -->
+                        <div class="xc-header-one__hamburger d-xl-none">
+                           <button type="button" class="xc-offcanvas-btn">
+                              <i class="icon-categories"></i>
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!--main-header end  -->
+      </header>
+      <div class="xc-body-overlay xc-close-toggler"></div>
+      <div class="xc-mobile-nav__wrapper">
+         <div class="xc-mobile-nav__overlay xc-close-toggler"></div>
+         <!-- /.mobile-nav__overlay -->
+         <div class="xc-mobile-nav__content">
+            <a href="#" class="xc-mobile-nav__close xc-search-popup__close xc-close-toggler"></a>
+            <div class="logo-box">
+               <a href="index.html"><img src="images/logo.webp" width="150" alt="" /></a>
+            </div>
+            <!-- /.logo-box -->
+            <div class="xc-mobile-nav__menu"></div>
+            <div class="xc-mobile-nav__top">
+               <div class="xc-footer-one__social">
+                  <a href="https://facebook.com/" target="_blank" data-bg-color="#3B5999">
+                     <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                     <span class="sr-only">Facebook</span>
+                  </a>
+                  <a href="https://instagram.com/" target="_blank" data-bg-color="#E4405F">
+                     <i class="fab fa-instagram" aria-hidden="true"></i>
+                     <span class="sr-only">Instagram</span>
+                  </a>
+                  <a href="https://twitter.com/" target="_blank" data-bg-color="#55ACEE">
+                     <i class="fab fa-x-twitter" aria-hidden="true"></i>
+                     <span class="sr-only">Twitter</span>
+                  </a>
+                  <a href="https://www.linkedin.com/" target="_blank" data-bg-color="#0A66C2">
+                     <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                     <span class="sr-only">linkedin</span>
+                  </a>
+               </div>
+            </div>
+            <!-- /.mobile-nav__top -->
+         </div>
+         <!-- /.mobile-nav__content -->
+      </div>
+      <!-- /.mobile-nav__wrapper -->
+      <div class="xc-back-to-top-wrapper">
+         <button id="xc_back-to-top" type="button" class="xc-back-to-top-btn">
+            <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+            </svg>
+            <span class="xc-back-to-top-progress"></span>
+         </button>
+      </div>
+      <!-- main slider two start -->
+      <div class="xc-main-slider-one__carousel thc-owl__carousel--basic-nav thc-owl__carousel owl-carousel"
+         data-owl-options='{
+            "loop": true,
+            "animateOut": "fadeOut",
+            "animateIn": "fadeIn",
+            "items": 1,
+            "autoplay": true,
+            "autoplayTimeout": 7000,
+            "smartSpeed": 1000,
+            "nav": false,
+            "navText": ["<span class=\"fa-solid fa-chevron-left\"></span>","<span class=\"fa-solid fa-chevron-right\"></span>"],
+            "dots": true,
+            "margin": 0
+            }'>
+         <div class="xc-main-slider-one xc-main-slider-two item " data-bg="images/banner-03.webp">
+            <div class="xc-main-slider-one__wrap">
+               <div class="container">
+                  <div class="row align-items-center gutter-y-60">
+                     <div class=" offset-lg-5 offset-lg-6 col-xxl-6 ">
+                        <div class="xc-main-slider-one__content">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="xc-main-slider-one xc-main-slider-two item " data-bg="images/home-nursing-services.webp">
+            <div class="xc-main-slider-one__wrap">
+               <div class="container">
+                  <div class="row align-items-center gutter-y-60">
+                     <div class=" offset-lg-5 offset-lg-6 col-xxl-6 ">
+                        <div class="xc-main-slider-one__content">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="xc-main-slider-one xc-main-slider-two item " data-bg="images/banner-01.webp">
+            <div class="xc-main-slider-one__wrap">
+               <div class="container">
+                  <div class="row align-items-center gutter-y-60">
+                     <div class=" offset-lg-5 offset-lg-6 col-xxl-6 ">
+                        <div class="xc-main-slider-one__content">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- main slider two end -->
+      <div id="sidebar">
+         <div class="icon" id="icon1"><a href="https://wa.me/yourphonenumber" target="_blank"><img
+                  src="images/whatsapp-.webp" alt="side bar" class="watsp" loading="lazy"></a> </div>
+      </div>
+      <!-- xc service start -->
+      <div class="xc-service-two pt-80 pb-100" id="service">
+         <div class="container">
+            <div class="xc-heading text-center mb-50">
+               <span class="xc-heading__subtitle">EXPLORE OUR HOME CARE SERVICES
+               </span>
+               <h3 class="xc-heading__title">We provide a full range of services, from companionship to specialized
+                  medical care, all delivered in the comfort of your home.
+               </h3>
+            </div>
+            <div class="xc-service-two__wrappe">
+               <div class="row gutter-y-30">
+                  <div class="col-md-6 col-lg-4 pb-40">
+                     <div class="xc-service-two__item">
+                        <div class="xc-service-two__img w-img">
+                           <img class="explore-img" src="images/eldercare.webp" alt="Disability Employment Services"
+                              loading="lazy">
+                        </div>
+                        <div class="xc-service-two__overimage">
+                           <div class="xc-service-two__icon">
+                              <span><i class="icon-disabled"></i></span>
+                           </div>
+                           <div class="xc-service-two__content">
+                              <h3 class="xc-service-two__title"><a href="elder-care-companions.html">Elder care
+                                    Companions</a>
+                              </h3>
+                              <a class="xc-service-two__btn" href="elder-care-companions.html">Read more <i
+                                    class="icon-right-arrow"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                     <div class="xc-service-two__item">
+                        <div class="xc-service-two__img w-img">
+                           <img class="explore-img" src="images/nursing-careorg.webp"
+                              alt="Comuunity Nursing Care Services" loading="lazy">
+                        </div>
+                        <div class="xc-service-two__overimage">
+                           <div class="xc-service-two__icon">
+                              <span><i class="icon-nurse"></i></span>
+                           </div>
+                           <div class="xc-service-two__content">
+                              <h3 class="xc-service-two__title"><a href="nursing-care.html">Nursing
+                                    Care</a>
+                              </h3>
+                              <a class="xc-service-two__btn" href="nursing-care.html">Read more <i
+                                    class="icon-right-arrow"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                     <div class="xc-service-two__item">
+                        <div class="xc-service-two__img w-img">
+                           <img class="explore-img" src="images/consultant01.webp" alt="Assisted Daily Living Solution"
+                              loading="lazy">
+                        </div>
+                        <div class="xc-service-two__overimage">
+                           <div class="xc-service-two__icon">
+                              <span><i class="icon-inclusive"></i></span>
+                           </div>
+                           <div class="xc-service-two__content">
+                              <h3 class="xc-service-two__title"><a href="doctor-consultations.html">Doctor
+                                    Consultations</a>
+                              </h3>
+                              <a class="xc-service-two__btn" href="doctor-consultations.html">Read more <i
+                                    class="icon-right-arrow"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                     <div class="xc-service-two__item">
+                        <div class="xc-service-two__img w-img">
+                           <img class="explore-img" src="images/icu-set-up-at-home.webp"
+                              alt="Assisted Daily Living Solution" loading="lazy">
+                        </div>
+                        <div class="xc-service-two__overimage">
+                           <div class="xc-service-two__icon">
+                              <span><i class="icon-inclusive"></i></span>
+                           </div>
+                           <div class="xc-service-two__content">
+                              <h3 class="xc-service-two__title"><a href="icu-setup-at-home.html">ICU Setup at
+                                    home</a>
+                              </h3>
+                              <a class="xc-service-two__btn" href="icu-setup-at-home.html">Read more <i
+                                    class="icon-right-arrow"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                     <div class="xc-service-two__item">
+                        <div class="xc-service-two__img w-img">
+                           <img class="explore-img" src="images/rental-and-purchase.webp"
+                              alt="Assisted Daily Living Solution" loading="lazy">
+                        </div>
+                        <div class="xc-service-two__overimage">
+                           <div class="xc-service-two__icon">
+                              <span><i class="icon-inclusive"></i></span>
+                           </div>
+                           <div class="xc-service-two__content">
+                              <h3 class="xc-service-two__title"><a href="purchase-medical-equipment.html">Purchase Or
+                                    Rent Equipment</a>
+                              </h3>
+                              <a class="xc-service-two__btn" href="purchase-medical-equipment.html">Read more <i
+                                    class="icon-right-arrow"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                     <div class="xc-service-two__item">
+                        <div class="xc-service-two__img w-img">
+                           <img class="explore-img" src="images/lab-text01.webp" alt="Assisted Daily Living Solution"
+                              loading="lazy">
+                        </div>
+                        <div class="xc-service-two__overimage">
+                           <div class="xc-service-two__icon">
+                              <span><i class="icon-inclusive"></i></span>
+                           </div>
+                           <div class="xc-service-two__content">
+                              <h3 class="xc-service-two__title"><a href="lab-test-at-home.html">Lab Test at
+                                    Home</a>
+                              </h3>
+                              <a class="xc-service-two__btn" href="lab-test-at-home.html">Read more <i
+                                    class="icon-right-arrow"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- xc service end -->
+      <!-- xc about start  -->
+      <div class="xc-about-one base-bg-gray  pt-100 pb-100">
+         <div class="container">
+            <div class="row gutter-y-60">
+               <div class="col-lg-6 none">
+                  <div class="xc-about-one__right">
+                     <div class="xc-about-one__right-one">
+                        <div class="xc-about-one__img1 w-img">
+                           <img src="images/about1.webp" alt="About Img One" loading="lazy">
+                        </div>
+                     </div>
+                     <div class="xc-about-one__right-two">
+                        <div class="xc-about-one__img2 w-img">
+                           <img src="images/about2.webp" alt="About Img One" class="abt-2" loading="lazy">
+                        </div>
+                        <div class="xc-about-one__counter">
+                           <h3 class="xc-about-one__count xc-count-box">
+                              <span class="xc-counter-up xc-count-number" data-stop="20" data-speed="1500"></span>
+                              <span class="xc-counter__before">k+</span>
+                           </h3>
+                           <h4 class="xc-about-one__counter-title">Happy Patients</h4>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div class="xc-about-one__left">
+                     <div class="xc-heading mb-30">
+                        <span class="xc-heading__subtitle"> ABOUT </span>
+                        <h3 class="xc-heading__title">About Us</h3>
+                        <p class="xc-heading__summary">At Track Home Care, we are dedicated to providing compassionate,
+                           professional, and high-quality home healthcare services that ensure the well-being and
+                           comfort of your loved ones. We understand the importance of maintaining a healthy, safe, and
+                           supportive environment for individuals who need medical assistance or companionship. Our
+                           range of services is designed to meet the diverse needs of our clients, ensuring that they
+                           receive the care they deserve in the comfort of their own homes.</p>
+                        <p></p>
+                        <p><i class="fas fa-check-circle"></i><strong>Elder Care Companions</strong> &nbsp &nbsp<i
+                              class="fas fa-check-circle"></i><strong>Nursing Care</strong> &nbsp &nbsp<i
+                              class="fas fa-check-circle"></i><strong>Doctor Consultations</strong> <br>
+                           <i class="fas fa-check-circle"></i><strong> ICU Setup at Home</strong> &nbsp &nbsp<i
+                              class="fas fa-check-circle"></i><strong>Purchase or Rent Equipment</strong> &nbsp &nbsp<i
+                              class="fas fa-check-circle"></i><strong> Ambulance Services</strong> <br>
+                           <i class="fas fa-check-circle"></i><strong> Lab Test Services</strong>
+                        </p>
+
+                     </div>
+                     <div class="xc-about-one__btns mt-30">
+                        <a href="about.html" class="thc-btn">Read More <i class="icon-right-arrow"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- xc about end  -->
+      <!-- banner one start  -->
+      <div class="xc-banner-one base-bg pt-60 pb-60 none">
+         <div class="xc-banner-one__bg d-none d-xl-block">
+            <img src="images/banner-img.webp" alt="banner" loading="lazy">
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-9">
+                  <span class="xc-banner-one__subtitle">Know More about us</span>
+                  <h3 class="xc-banner-one__title">Track Home Care offering exceptional service and care.</h3>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- banner one end  -->
+      <div class="xc-team-one pt-75 pb-100">
+         <div class="container">
+            <div class="xc-heading text-center mb-50">
+
+               <span class="xc-heading__subtitle">
+                  OUR TEAM
+               </span>
+
+               <h3 class="xc-heading__title">Meet the Experts</h3>
+
+            </div>
+            <div class="xc-team-one__wrapper">
+               <div class="row justify-content-center">
+                  <div class="col-md-6 col-lg-4">
+                     <div class="xc-team-one__item">
+                        <div class="xc-team-one__img w-img">
+                           <img src="images/our-team02.webp" alt="assets/img/team/team-1-2.jpg">
+
+                        </div>
+                        <div class="xc-team-one__content">
+
+                           <div>
+                              <h4 class="xc-team-one__name">Dr. Parikshit Das</h4>
+                              <span class="xc-team-one__bio">
+                                 MBBS, DNB <br>
+                                 5 yrs Experience <br>
+                                 Fortis Escorts hospital</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                     <div class="xc-team-one__item">
+                        <div class="xc-team-one__img w-img">
+                           <img src="images/our-team01.webp" alt="assets/img/team/team-1-1.jpg">
+
+                        </div>
+                        <div class="xc-team-one__content ">
+                           <div>
+                              <h4 class="xc-team-one__name ">Dr. Munawar Sultan</h4>
+                              <span class="xc-team-one__bio">
+                                 MBBS, FCCM <br>
+                                 6 yrs Experience <br>
+                                 Fortis Escorts Hospital</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- testimonial one start -->
+      <div class="xc-testimonial-one base-bg pt-80 pb-100">
+         <div class="container">
+            <div class="xc-heading xc-heading__white text-center mb-50">
+               <!-- <span class="xc-heading__subtitle text-dark">
+                  testimonials
+               </span> -->
+               <h3 class="xc-heading__title">Our Clients Feedback</h3>
+            </div>
+            <div
+               class="xc-testimonial-one__carousel thc-owl__carousel thc-owl__carousel--with-shadow thc-owl__carousel--basic-nav owl-carousel"
+               data-owl-options='{
+                  "items": 2,
+                  "margin": 30,
+                  "loop": true,
+                  "smartSpeed": 700,
+                  "nav": false,
+                  "navText": ["<span class=\"icon-arrow-left\"></span>","<span class=\"icon-arrow-right\"></span>"],
+                  "dots": false,
+                  "autoplay": false,
+                  "responsive": {
+                  "0": {
+                  "items": 1
+                  },
+                  "576": {
+                  "items": 1,
+                  "margin": 15
+                  },
+                  "992": {
+                  "items": 2,
+                  "margin": 30
+                  }
+                  }
+                  }'>
+               <div class="item">
+                  <div class="xc-testimonial-one__item  text-center">
+                     <div class="xc-testimonial-one__top">
+                        <div class="xc-testimonial-one__thumb">
+                           <img src="images/test-monial-men.webp" alt="Customer" loading="lazy">
+                        </div>
+                     </div>
+                     <p class="xc-testimonial-one__review">"I cannot thank Track Home Care enough for their
+                        kindness and
+                        support. I was struggling to find a chemist who would deliver medicines late at night
+                        while my child was suffering from a high fever. When I reached out at 1 AM to request an
+                        online order, I didn’t expect an immediate delivery. "
+                     </p>
+                     <h3 class="xc-testimonial-one__name">
+                        Mr. Saurav Tyagi
+                     </h3>
+                     <span class="xc-testimonial-one__bio">Patience</span>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="xc-testimonial-one__item text-center">
+                     <div class="xc-testimonial-one__top">
+                        <div class="xc-testimonial-one__thumb">
+                           <img src="images/test-1.webp" alt="Customer" loading="lazy">
+                        </div>
+                     </div>
+                     <p class="xc-testimonial-one__review">"The services offered by Track Home Care were truly a
+                        blessing. The prompt and efficient care they provided was exceptional. The
+                        physiotherapists were not only polite but also highly skilled professionals. They were
+                        always punctual and delivered top-notch service. "
+                     </p>
+                     <h3 class="xc-testimonial-one__name">
+                        Mayank Verma
+                     </h3>
+                     <span class="xc-testimonial-one__bio">Patience</span>
+                  </div>
+               </div>
+               <div class="item">
+                  <div class="xc-testimonial-one__item text-center">
+                     <div class="xc-testimonial-one__top">
+                        <div class="xc-testimonial-one__thumb">
+                           <img src="images/test-monial.webp" alt="Customer" loading="lazy">
+                        </div>
+                     </div>
+                     <p class="xc-testimonial-one__review">"My name is Pallavi Shrivastava, and I was battling
+                        severe kidney issues that necessitated the presence of a critical care attendant at
+                        home. I chose Critical Nursing Care from Track Home Care, and I can honestly say it gave
+                        me a
+                        new lease on life. "
+                     </p>
+                     <h3 class="xc-testimonial-one__name">Pallavi Shrivastava</h3>
+                     <span class="xc-testimonial-one__bio">Patience</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- testimonial one end -->
+      <!-- xc contact fomr -->
+      <div class="xc-contact-page pt-100 pb-100">
+         <div class="container">
+            <div class="row gutter-y-30">
+               <div class="col-lg-6 none">
+                  <div class="xc-contact-page__left">
+                     <div class="xc-contact-page__headline mb-40">
+                        <h2 class="xc-cotnact-page__title">Get In Touch</h2>
+                        <!-- <p class="xc-contact-page__info">Need Disability Help from Contact With Us.</p> -->
+                     </div>
+                     <ul class="xc-contact-page__cta list-unstyled">
+                        <li>
+                           <span class="xc-contact-page__cta-title">Contact</span>
+                           <h4 class="xc-contact-page__cta__info">
+                              <a href="tel:+91-8799785858">+91-8799785858</a>
+                           </h4>
+                        </li>
+                        <li>
+                           <span class="xc-contact-page__cta-title">Email</span>
+                           <h4 class="xc-contact-page__cta__info">
+                              <a href="tel:support@trackhomecare.online"> support@trackhomecare.online</a>
+                           </h4>
+                        </li>
+                        <li>
+                           <span class="xc-contact-page__cta-title">Address</span>
+                           <h4 class="xc-contact-page__cta__info">
+                              <a>D- 166, Garima Garden, Ashok Vatika, Hindon Residential Area, Ghaziabad,
+                                 Uttar Pradesh 201005 </a>
+                           </h4>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div class="xc-contact-page__form">
+                     <h3 class="xc-contact-page__form-title mb-20">Have any query?</h3>
+                     <form id="contactForm" name="contactForm" method="post">
+                        <div class="xc-form__input">
+                           <label class="ps-2" for="Name"></label>
+                           <input type="text" placeholder="Your Name *" name="Name">
+                           <label id="name-error" class="error" for="name"></label>
+                        </div>
+                        <div class="xc-form__input">
+                           <label class="ps-2" for="Name"></label>
+                           <input type="text" placeholder="Phone Number *" name="phone">
+                           <label id="name-error" class="error" for="name"></label>
+                        </div>
+                        <div class="xc-form__input">
+                           <label class="ps-2" for="Name"></label>
+                           <input type="text" placeholder="Email Address" name="email">
+                           <label id="name-error" class="error" for="name"></label>
+                        </div>
+                        <div class="xc-form__textarea">
+                           <label class="ps-2" for="Name"></label>
+                           <textarea placeholder="Enter Your Message Here" name="message"></textarea>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 form-group contact-forms">
+                           <div class="g-recaptcha" data-sitekey="6LcnzK0qAAAAAIdgvwPHRfC2SptfETDUj14Mo4Xs"></div>
+                           <span id="recaptchaError" class="error"></span>
+                        </div>
+                        <div class="text-start mt-2">
+                           <button type="submit" class="thc-btn">Get In Touch</button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- xc contact end -->
+      <!-- proejct one start  -->
+      <div class="xc-portfolio-one pb-100">
+         <div class="xc-portfolio-one__wrap">
+            <div class="container-fluid p-lg-0">
+               <div class="xc-heading text-center mb-50">
+                  <span class="xc-heading__subtitle">
+                     Gallery
+                  </span>
+                  <h3 class="xc-heading__title">Our <span>Happy Patients</span> </h3>
+               </div>
+               <div
+                  class="xc-portfolio-one__carousel thc-owl__carousel thc-owl__carousel--with-shadow thc-owl__carousel--basic-nav owl-carousel"
+                  data-owl-options='{
+                     "items": 5,
+                     "margin": 30,
+                     "loop": true,
+                     "smartSpeed": 700,
+                     "nav": true,
+                     "navText": ["<span class=\"icon-arrow-left\"></span>","<span class=\"icon-arrow-right\"></span>"],
+                     "dots": false,
+                     "autoplay": true,
+                     "center":true,
+                     "responsive": {
+                     "0": {
+                     "items": 1,
+                     "margin": 30,
+                     "dots": true
+                     },
+                     "576": {
+                     "items": 2,
+                     "margin": 15,
+                     "dots": true
+                     },
+                     "992": {
+                     "items": 3,
+                     "margin": 30
+                     },
+                     "1200": {
+                     "items":5,
+                     "margin": 30
+                     }
+                     }
+                     }'>
+                  <div class="item">
+                     <div class="xc-portfolio-one__item">
+                        <div class="xc-faq-one__right">
+                           <div class="xc-faq-one__video w-img">
+                              <img src="images/happy-patient01.webp" alt="Video One" class="gallery_img" loading="lazy">
+                              <a href="images/happy-patient01.webp" class=" xc-popup xc-portfolio-one__content"><i
+                                    class="icon-plus"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="xc-portfolio-one__item">
+                        <div class="xc-faq-one__right">
+                           <div class="xc-faq-one__video w-img">
+                              <img src="images/happy-patient002.webp" alt="Video One" class="gallery_img"
+                                 loading="lazy">
+                              <a href="images/happy-patient02.webp" class=" xc-popup xc-portfolio-one__content"><i
+                                    class="icon-plus"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="item">
+                     <div class="xc-portfolio-one__item">
+                        <div class="xc-faq-one__right">
+                           <div class="xc-faq-one__video w-img">
+                              <img src="images/happy-patient03.webp" alt="Video One" class="gallery_img" loading="lazy">
+                              <a href="images/happy-patient03.webp" class=" xc-popup xc-portfolio-one__content"><i
+                                    class="icon-plus"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="item">
+                     <div class="xc-portfolio-one__item">
+                        <div class="xc-faq-one__right">
+                           <div class="xc-faq-one__video w-img">
+                              <img src="images/happy-patient04.webp" alt="Video One" class="gallery_img" loading="lazy">
+                              <a href="images/happy-patient004.webp" class=" xc-popup xc-portfolio-one__content"><i
+                                    class="icon-plus"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="xc-portfolio-one__item">
+                        <div class="xc-faq-one__right">
+                           <div class="xc-faq-one__video w-img">
+                              <img src="images/happy-patient05.webp" alt="Video One" class="gallery_img" loading="lazy">
+                              <a href="images/happy-patient005.webp" class=" xc-popup xc-portfolio-one__content"><i
+                                    class="icon-plus"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="xc-portfolio-one__item">
+                        <div class="xc-faq-one__right">
+                           <div class="xc-faq-one__video w-img">
+                              <img src="images/happy-patient06.webp" alt="Video One" class="gallery_img" loading="lazy">
+                              <a href="images/happy-patient006.webp" class=" xc-popup xc-portfolio-one__content"><i
+                                    class="icon-plus"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- proejct one end  -->
+      <footer>
+         <div id="contact" class="xc-footer-one xc-footer-one__overlay black-bg pt-90" data-bg="img/bg/footer-bg.webp">
+            <div class="container">
+               <div class="xc-footer-one__wrapper pb-30">
+                  <div class="row gutter-y-40 justify-content-between">
+                     <div class="col-md-6 col-lg-3">
+                        <div class="xc-footer-one__widget xc-widget-col-1">
+                           <div class="xc-footer-one__logo none">
+                              <p class="text-white none">Launched in 2024, Track Home Care is a
+                                 comprehensive home care service provider dedicated to delivering exceptional
+                                 patient care in the comfort of your own home. Our mission is to provide
+                                 personalized care, built on the foundation of our slogan "Care that comes to
+                                 you. Our services we offer a wide range of services designed to cater to
+                                 your specific requirements.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-6 col-lg-3">
+                        <div class="xc-footer-one__widget xc-widget-col-2">
+                           <h3 class="xc-footer-one__widget-title">Quick Links</h3>
+                           <ul class="xc-footer-one__nav">
+                              <li><a href="index.html">Home</a></li>
+                              <li><a href="about.html">About Us</a></li>
+                              <li><a href="our-team.html">Our Team</a></li>
+                              <li><a href="gallery.html">Gallery</a></li>
+                              <li><a href="contact.html">Contact</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-md-6 col-lg-3">
+                        <div class="xc-footer-one__widget xc-widget-col-3">
+                           <h3 class="xc-footer-one__widget-title">Services</h3>
+                           <ul class="xc-footer-one__nav">
+                              <li><a href="elder-care-companions.html">Elder Care Companions</a></li>
+                              <li><a href="nursing-care.html">Nursing Care</a></li>
+                              <li><a href="doctor-consultations.html">Doctor Consultations</a></li>
+                              <li><a href="icu-setup-at-home.html">ICU Setup at Home</a></li>
+                              <li><a href="medical-equipment-on-rent.html">Medical Equipment on Rent</a></li>
+                              <li><a href="purchase-medical-equipment.html">Purchase Medical Equipment</a>
+                              </li>
+                              <li><a href="lab-test-at-home.html">Lab Test at Home</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-md-6 col-lg-3">
+                        <div class="xc-footer-one__widget xc-widget-col-4">
+                           <h3 class="xc-footer-one__widget-title">Contact Us</h3>
+                           <ul class="xc-footer-one__cta xc-list-unstyled">
+                              <li><i class="icon-pin"></i>D- 166, Garima Garden, Ashok Vatika, Hindon
+                                 Residential Area, Ghaziabad, Uttar Pradesh 201005
+                                 Ghaziabad 201005, IN
+                              </li>
+                              <li><i class="icon-phone-call"></i><a href="tel:+91-8799785858">+91-8799785858</a></li>
+                              <li><i class="icon-email-solid"></i><a
+                                    href="mailto:support@trackhomecare.online">support@trackhomecare.online</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="xc-footer-one__copyright">
+                  <div class="xc-footer__copyright">
+                     <p class="xc-footer__copyright__text">&copy; Copyright <span class="xc-dynamic-year"></span>
+                        by
+                        <a target="_blank" href="#0"> Track Home Care </a>
+                     </p>
+                  </div>
+                  <p class="aws"><a href="https://www.ahmadwebsolutions.com/" target="_blank" class="a-aws">
+                        Best Website Development & SEO Agency, Delhi</a>
+                  </p>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </div>
+   <!-- xc-page-wrapper -->
+   <script>
+      // script.js
+      window.onscroll = function () {
+         changeSidebarStyle();
+      };
+
+      function changeSidebarStyle() {
+         const scrollPosition = window.scrollY;
+         const icons = document.querySelectorAll('.icon');
+         const sidebar = document.getElementById('sidebar');
+
+         if (scrollPosition > 100) {
+            // When scrolled down 100px, change icons and sidebar style
+            sidebar.style.width = '70px'; // Make sidebar narrower
+            icons.forEach(icon => {
+               icon.classList.add('shrink-icon'); // Shrink icons
+               icon.classList.add('change-color'); // Add background to icons
+            });
+         } else {
+            // Reset styles when scroll is back to top
+            sidebar.style.width = '60px';
+            icons.forEach(icon => {
+               icon.classList.remove('shrink-icon');
+               icon.classList.remove('change-color');
+            });
+         }
+      }
+   </script>
+   <!-- <script src="vendors/jquery/jquery-3.7.0.min.js" defer></script> -->
+   
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+   <script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <script src="vendors/owl-carousel/js/owl.carousel.min.js"></script>
+   <script src="vendors/jquery-appear/jquery.appear.min.js"></script>
+   <script src="vendors/placeholdem/placeholdem.min.js"></script>
+   <script src="vendors/glightbox/js/glightbox.min.js"></script>
+   <script src="js/main.js"></script>
+   <script src="https://www.google.com/recaptcha/api.js"></script>
+
+
+  <script>
+   $(document).ready(function () {
+      //  Custom method for full email validation
+      $.validator.addMethod('fullEmail', function (value, element) {
+                            // Regular expression for basic email validation
+                            var emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+                            return this.optional(element) || emailPattern.test(value);
+                        }, 'Please enter a valid email address (e.g., example@gmail.com).');
+    // jQuery Validation setup
+    $("#contactForm").validate({
+        rules: {
+            Name: {
+                required: true,
+                minlength: 3,
+                maxlength: 50
+            },
+            phone: {
+                required: true,
+                digits: true,
+                minlength: 10,
+                maxlength: 15
+            },
+            email: {
+                fullEmail:true,
+                email: true,
+                maxlength: 50
+            },
+            message: {
+                maxlength: 300
+            }
+        },
+        messages: {
+            Name: {
+                required: "Please enter your name",
+                minlength: "Your name must be at least 3 characters long",
+                maxlength: "Your name cannot be more than 50 characters long"
+            },
+            phone: {
+                required: "Please enter your phone number",
+                digits: "Please enter a valid phone number",
+                minlength: "Your phone number must be at least 10 digits long",
+                maxlength: "Your phone number cannot be more than 15 digits long"
+            },
+            email: {
+                fullEmail: "please enter a valid email",
+                email: "Please enter a valid email address",
+                maxlength: "Your email cannot be more than 50 characters long"
+            },
+            message: {
+                maxlength: "Your message cannot be more than 300 characters long"
+            }
+        },
+        submitHandler: function (form) {
+            // Check if the message field contains the placeholder text and replace it with an empty string
+            var message = $("textarea[name='message']").val();
+            if (message === "Enter Your Message Here" || message.trim() === "") {
+                $("textarea[name='message']").val(""); // Set empty string for blank messages
+            }
+
+            // Serialize the form data
+            var formData = $(form).serialize();
+            
+            // AJAX request to process the form submission
+            $.ajax({
+                url: 'contact.php',  // The PHP script that processes the form
+                type: 'POST',
+                data: formData,  // Send form data
+                dataType: 'json',  // Expect JSON response
+                
+                success: function (response) {
+                    // Log the response from the server
+                    console.log('AJAX Success:', response);
+                    // Handle the response from the PHP script
+                    if (response.status === 'success') {
+                        Swal.fire({
+                            title: 'Success!',
+                            text: response.message,
+                            icon: 'success',
+                            confirmButtonText: 'OK'
+                        }).then((result) => {
+                            if (result.isConfirmed) {
+                                location.reload();
+                            }
+                        });
+                    } else if (response.status === 'error') {
+                        Swal.fire({
+                            title: 'Oops!',
+                            text: response.message,
+                            icon: 'error',
+                            confirmButtonText: 'OK'
+                        });
+                    }
+                },
+                error: function (xhr, status, error) {
+                    // Log the error to the console
+                    Swal.fire({
+                        title: 'Error!',
+                        text: 'There was a problem with the request.',
+                        icon: 'error',
+                        confirmButtonText: 'OK'
+                    });
+                }
+            });
+        }
+    });
+});
+
+</script>
+
+
+
+</body>
+
+</html>

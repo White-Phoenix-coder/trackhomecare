@@ -1,0 +1,233 @@
+@font-face {
+  font-family: 'icomoon';
+  src:
+    url('fonts/icomoond6d2.ttf?z14a83') format('truetype'),
+    url('fonts/icomoond6d2.woff?z14a83') format('woff'),
+    url('fonts/icomoond6d2.svg?z14a83#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-active:before {
+  content: "\e900";
+}
+.icon-arrow-right:before {
+  content: "\e901";
+}
+.icon-arrow-left:before {
+  content: "\e902";
+}
+.icon-arrow-up:before {
+  content: "\e903";
+}
+.icon-arrow-down:before {
+  content: "\e904";
+}
+.icon-briefing:before {
+  content: "\e905";
+}
+.icon-bubble-chat:before {
+  content: "\e906";
+}
+.icon-calendar:before {
+  content: "\e908";
+}
+.icon-categories:before {
+  content: "\e909";
+}
+.icon-choice:before {
+  content: "\e90a";
+}
+.icon-clock-time:before {
+  content: "\e90b";
+}
+.icon-communication:before {
+  content: "\e90c";
+}
+.icon-depression:before {
+  content: "\e90d";
+}
+.icon-disabled:before {
+  content: "\e90e";
+}
+.icon-double-right-arrow:before {
+  content: "\e910";
+}
+.icon-double-left-arrow:before {
+  content: "\e911";
+}
+.icon-double-up-arrow:before {
+  content: "\e912";
+}
+.icon-double-down-arrow:before {
+  content: "\e913";
+}
+.icon-download:before {
+  content: "\e914";
+}
+.icon-edit-user:before {
+  content: "\e915";
+}
+.icon-email:before {
+  content: "\e916";
+}
+.icon-email-solid:before {
+  content: "\e917";
+}
+.icon-facebook:before {
+  content: "\e918";
+}
+.icon-folder:before {
+  content: "\e919";
+}
+.icon-globe:before {
+  content: "\e91e";
+}
+.icon-health-insurance:before {
+  content: "\e91f";
+}
+.icon-instagram-logo:before {
+  content: "\e923";
+}
+.icon-linkedin-logo:before {
+  content: "\e924";
+}
+.icon-list:before {
+  content: "\e925";
+}
+.icon-location:before {
+  content: "\e926";
+}
+.icon-location-pin:before {
+  content: "\e927";
+}
+.icon-medical:before {
+  content: "\e928";
+}
+.icon-medical-report:before {
+  content: "\e929";
+}
+.icon-minus-sign:before {
+  content: "\e92a";
+}
+.icon-nurse:before {
+  content: "\e92b";
+}
+.icon-nursing-home:before {
+  content: "\e92d";
+}
+.icon-paper-plane:before {
+  content: "\e92e";
+}
+.icon-phone:before {
+  content: "\e92f";
+}
+.icon-phone-book:before {
+  content: "\e930";
+}
+.icon-phone-call:before {
+  content: "\e931";
+}
+.icon-physical:before {
+  content: "\e932";
+}
+.icon-pin:before {
+  content: "\e934";
+}
+.icon-planning:before {
+  content: "\e936";
+}
+.icon-play:before {
+  content: "\e937";
+}
+.icon-plus:before {
+  content: "\e938";
+}
+.icon-public-relation:before {
+  content: "\e939";
+}
+.icon-quote:before {
+  content: "\e93a";
+}
+.icon-search:before {
+  content: "\e93b";
+}
+.icon-senior:before {
+  content: "\e93c";
+}
+.icon-share:before {
+  content: "\e93d";
+}
+.icon-shopping-cart:before {
+  content: "\e93e";
+}
+.icon-star-sign:before {
+  content: "\e93f";
+}
+.icon-straight-quotes:before {
+  content: "\e940";
+}
+.icon-supporting:before {
+  content: "\e941";
+}
+.icon-data-base:before {
+  content: "\e942";
+}
+.icon-svgexport-5-1:before {
+  content: "\e943";
+}
+.icon-heart-hand:before {
+  content: "\e944";
+}
+.icon-date:before {
+  content: "\e945";
+}
+.icon-team:before {
+  content: "\e948";
+}
+.icon-clock:before {
+  content: "\e949";
+}
+.icon-twitter:before {
+  content: "\e94a";
+}
+.icon-up-right-arrow:before {
+  content: "\e94b";
+}
+.icon-user:before {
+  content: "\e94c";
+}
+.icon-youtube:before {
+  content: "\e94e";
+}
+.icon-right-arrow:before {
+  content: "\e90f";
+}
+.icon-calendar-1:before {
+  content: "\e907";
+}
+.icon-inclusive:before {
+  content: "\e91a";
+}
+.icon-chat:before {
+  content: "\e91b";
+}
+.icon-user-edit:before {
+  content: "\e91c";
+}
